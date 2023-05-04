@@ -7,7 +7,18 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+torch = ">=1.7.0"
+torchvision = ">=0.8.1"
+ultralytics = "^8.0.84"
+torchaudio = "^2.0.1"
+numpy = "^1.24.2"
+cpython = "^0.0.6"
+lap = { git = "https://github.com/DeGirum/lap", branch = "master" }
+roboflow = "^1.0.5"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
 
 [build-system]
 requires = ["poetry-core"]
